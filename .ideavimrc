@@ -1,0 +1,17 @@
+source C:\Users\zecuse\.vimrc
+nnoremap <leader>s :source C:\Users\zecuse\.ideavimrc<CR>
+
+" Assign the action to the <C-A-Q> shortcut, remove if previously used.
+" Enable 'track action ids' in the top right search bar to copy the action id
+nmap <leader>n <Action>(IntentionActionAsAction_org.jetbrains.kotlin.idea.intentions.AddNamesToCallArgumentsIntention)
+vmap <leader>sa <Action>(EditorSortLines)
+vmap <leader>sd <Action>(EditorReverseLines)
+
+set scrolloff=4
+
+" Plugins
+set surround
+set easymotion
+set quickscope
+set which-key
+set notimeout
